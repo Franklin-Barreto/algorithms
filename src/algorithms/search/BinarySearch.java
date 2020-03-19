@@ -6,7 +6,7 @@ public class BinarySearch {
 		int begin = 0;
 		int end = array.length;
 		int middle = 0;
-		while (begin < end) {
+		while (begin <= end) {
 			middle = (begin + end) / 2;
 			System.out.println(array[middle]);
 			if (array[middle] == value) {

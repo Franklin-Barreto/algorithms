@@ -13,7 +13,8 @@ public class BinarySearchTest {
 	@Test
 	public void binarySearchTest() {
 		BinarySearch binarySearch = new BinarySearch();
-		int index = binarySearch.find(array, 6);
-		assertEquals(5, index);
+		
+		assertEquals(0, binarySearch.find(array, 1));
+		assertEquals(5, binarySearch.find(array, 6));
 	}
 }
