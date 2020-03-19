@@ -9,11 +9,10 @@ public class InsertionSort {
 	}
 
 	private void insert(int array[], int rightIndex, int value) {
-		int key = rightIndex;
-		while (key >= 0 && array[key] > value) {
-			array[key + 1] = array[key];
-			key--;
+		while (rightIndex >= 0 && array[rightIndex] > value) {
+			array[rightIndex + 1] = array[rightIndex];
+			rightIndex--;
 		}
-		array[key + 1] = value;
+		array[rightIndex + 1] = value;
 	}
 }
