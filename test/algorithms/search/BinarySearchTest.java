@@ -1,4 +1,4 @@
-package algorithms.sort.test;
+package algorithms.search;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

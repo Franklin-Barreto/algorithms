@@ -1,10 +1,6 @@
-package algorithms.sort.test;
-
-import java.util.Arrays;
+package algorithms.sort;
 
 import org.junit.Test;
-
-import algorithms.sort.InsertionSort;
 
 public class InsertionSortTest {
 
@@ -14,6 +10,5 @@ public class InsertionSortTest {
 	public void insertionTest() {
 		InsertionSort insertion = new InsertionSort();
 		insertion.sort(array);
-		System.out.println(Arrays.toString(array));
 	}
 }
